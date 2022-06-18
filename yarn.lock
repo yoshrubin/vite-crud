@@ -359,6 +359,11 @@ binary-extensions@^2.0.0:
   resolved "https://registry.npmmirror.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
+boolbase@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
+  integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
 braces@^3.0.1, braces@~3.0.2:
   version "3.0.2"
   resolved "https://registry.npmmirror.com/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
@@ -723,13 +728,15 @@ eslint-config-prettier@8.4.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.4.0.tgz#8e6d17c7436649e98c4c2189868562921ef563de"
   integrity sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==
 
-eslint-plugin-vue@8.5.0:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-8.5.0.tgz#65832bba43ca713fa5da16bdfcf55d0095677f6f"
-  integrity sha512-i1uHCTAKOoEj12RDvdtONWrGzjFm/djkzqfhmQ0d6M/W8KM81mhswd/z+iTZ0jCpdUedW3YRgcVfQ37/J4zoYQ==
+eslint-plugin-vue@8.7.1:
+  version "8.7.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-8.7.1.tgz#f13c53547a0c9d64588a675cc5ecc6ccaf63703f"
+  integrity sha512-28sbtm4l4cOzoO1LtzQPxfxhQABararUb1JtqusQqObJpWX2e/gmVyeYVfepizPFne0Q5cILkYGiBoV36L12Wg==
   dependencies:
     eslint-utils "^3.0.0"
     natural-compare "^1.4.0"
+    nth-check "^2.0.1"
+    postcss-selector-parser "^6.0.9"
     semver "^7.3.5"
     vue-eslint-parser "^8.0.1"
 
@@ -1087,6 +1094,13 @@ normalize-range@^0.1.2:
   version "0.1.2"
   resolved "https://registry.npmmirror.com/normalize-range/-/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
   integrity sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==
+
+nth-check@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-2.0.1.tgz#2efe162f5c3da06a28959fbd3db75dbeea9f0fc2"
+  integrity sha512-it1vE95zF6dTT9lBsYbxvqh0Soy4SPowchj0UBGj/V6cTPnXXtQOPUbhZ6CmGzAD/rW22LQK6E96pcdJXk4A4w==
+  dependencies:
+    boolbase "^1.0.0"
 
 object-assign@^4.1.1:
   version "4.1.1"
